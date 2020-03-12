@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Bullet" extends="Group">
+    <interface>
+        <field id = "speed" type = "integer" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/MainGame/uiTemplates/Bullet.brs"/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SettingsView" extends="Group">
+    <interface>
+        <field id = "selectedState" type="string"/>
+    </interface>
+    <children>
+        <RowList id="SettingsList" itemComponentName = "SettingsContent"></RowList>    
+    </children>
+    <script type="text/brightscript" uri="pkg:/components/Settings/SettingsView.brs"/>
+</component>

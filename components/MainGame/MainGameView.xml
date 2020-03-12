@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainGameView" extends="Group">
+    <interface>
+        <field  id = "gameState" type="string" />
+        <function name="startNewGame" />
+        <function name="restartLevel" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/MainGame/MainGameView.brs"/>
+    <script type="text/brightscript" uri="pkg:/source/events/EventType.brs"/>
+    <children>
+        <LabelList id="MainGameContainer">
+            <ContentNode role = "content">
+                <ContentNode title = "item" />
+            </ContentNode>
+        </LabelList>
+        <Timer
+            id="engineTimer"
+            repeat="true"
+            duration="0.01"
+        />    
+    </children>
+</component>
